@@ -1,4 +1,4 @@
-{% extends base.html %}
+{% extends 'base.html' %}
 {% block name %}주문 페이지{% endblock %}
 
 {% block content %}
@@ -9,7 +9,7 @@
   </div>
   <div class="order-md-1">
     <hr class="mb-4">
-    <form action="{% url 'create' %}" method="POST" enctype="multipart/form-data">
+    <form action="" method="POST" enctype="multipart/form-data">
       {% csrf_token %}
       <div class="mb-3">
         <label for="inputName">주문하시는 분의 이름을 적어주세요.</label>
