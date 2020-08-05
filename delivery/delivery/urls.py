@@ -21,5 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.order, name="order"),
     path('record/', views.record, name="record"),
-    path('change/', views.chage, name="change"),
+    path('change/', views.change, name="change"),
 ]
