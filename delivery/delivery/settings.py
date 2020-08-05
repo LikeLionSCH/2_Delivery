@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'page.apps.PageConfig',
+    'page.apps.PageConfig', #앱폴더 등록
 ]
 
 MIDDLEWARE = [
